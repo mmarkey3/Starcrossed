@@ -1,0 +1,25 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 6, in script
+    image geneva = Transform("images/winters_neutral.png", size=([genevaW],961))
+  File "game/script.rpy", line 6, in <module>
+    image geneva = Transform("images/winters_neutral.png", size=([genevaW],961))
+NameError: name 'genevaW' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 6, in script
+    image geneva = Transform("images/winters_neutral.png", size=([genevaW],961))
+  File "C:\Users\M\Documents\Renpy\renpy-6.99.5-sdk\renpy\ast.py", line 897, in execute
+    img = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "C:\Users\M\Documents\Renpy\renpy-6.99.5-sdk\renpy\python.py", line 1601, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 6, in <module>
+    image geneva = Transform("images/winters_neutral.png", size=([genevaW],961))
+NameError: name 'genevaW' is not defined
+
+Windows-8-6.2.9200
+Ren'Py 6.99.10.1227
+Starcrossed 0.0

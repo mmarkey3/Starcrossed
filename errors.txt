@@ -1,0 +1,9 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 63: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a ' at the end of the first line.)
+        “I fumbled hopelessly for a light. The core wasn't responding to my voice commands. I had to find a switch.”
+
+Ren'Py Version: Ren'Py 6.99.10.1227
